@@ -1,6 +1,6 @@
 import os
 
-USERS = eval(os.environ['USERS'])
+USERS = os.environ['USERS']
 SERVER_KEY = os.environ['SERVER_KEY']
 
 
